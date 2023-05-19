@@ -41,7 +41,7 @@ const About = () => {
 
     <motion.p variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-    Passionate	about	the	development	of technological tools. With a high interest in continuous learning. I like facing new challenges in web development. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, hic? Ad, ducimus earum et expedita ab commodi inventore animi dignissimos, officiis explicabo, nobis dolores magni at vero! Illo, unde sunt.
+Passionate about the development of technological tools with a strong interest in continuous learning. I enjoy taking on new challenges in web development. Over time, I have acquired skills primarily in frontend development, but I also have knowledge in backend development, which allows me to tackle challenges on all fronts and develop projects smoothly
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
     {services.map((service, index) =>(
@@ -55,3 +55,4 @@ const About = () => {
 }
 
 export default SectionWraper (About, 'about')
+

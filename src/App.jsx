@@ -15,7 +15,7 @@ const App = ()=> {
       <Experience/>
       <Tech/>
       <Works/>
-      <Feedbacks/>
+      {/* <Feedbacks/> */}
       <div className='relative-0'>
       <Contact/>
       <StarsCanvas/>

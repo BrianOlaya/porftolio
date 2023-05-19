@@ -4,25 +4,28 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
+    adminpro,
+    iccrenacer,
+    bienes_raices,
+    control_citas,
+    control_gastos,
+    blog_cafe,
     tripguide,
     threejs,
+    lilab,
+    talent,
+    mibanco,
+    sql
+
   } from "../assets";
   
   export const navLinks = [
@@ -73,85 +76,71 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+
     {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
       company_name: "Lima Lab Inovation",
-      icon: starbucks,
+      icon: lilab,
       iconBg: "#383E56",
       date: "September 2020 - October 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Building the user interface for a web application of a financial company",
+        "Collaborating with cross-functional teams including QA, product managers, and other developers to create the web app.",
+  
       ],
     },
     {
-      title: "Junnior Programmer",
+      title: "Junior Programmer",
       company_name: "Talent.com",
-      icon: tesla,
+      icon: talent,
       iconBg: "#E6DEDD",
       date: "November 2020 - January 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating algorithms for the web scraping processes of the company",
+        "Participating in team strategy meetings.",    
       ],
     },
     {
       title: "Analist - Full Stack Developer",
       company_name: "Mi Banco Colombia",
-      icon: shopify,
+      icon: mibanco,
       iconBg: "#383E56",
       date: "February 2021 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing a web app used by almost all the employees at the bank",
+        "Developing the improvements required by the bank's commercial network.",
+        "Managing the data related to all credits, customers, and advisors of the bank",
+        "Participating in meetings with the user to include new features",
       ],
     }
     //,
@@ -199,68 +188,137 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AdminPro",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web app to manage projects and tasks by marking them as pending or done. It includes CRUD operations for projects and associated tasks. To access these features, users need to sign up on AdminPro.",
       tags: [
         {
-          name: "react",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: adminpro,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://mystifying-ptolemy-e3a6ec.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "ICC Renacer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that show information of a christian comunity, the mettings, devotionals and differents ativities.This application count with a exclusive section to the staff to register their disciples.",
       tags: [
         {
-          name: "react",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: iccrenacer,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://www.iccrenacer.com/"
     },
     {
-      name: "Trip Guide",
+      name: "Bienes Raices",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Static web site of a inmobiliary company that show information of houses and apartments, also contain informartion about the company, pricing, contact form and testimonials.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Responsive design",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bienes_raices,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://happy-franklin-7623f3.netlify.app/"
     },
+    {
+      name: "Control presupuesto",
+      description:
+        "A web app that enables users to have budget control. This application saves the initial budget in local storage, lists all the expenses, and provides warnings based on the remaining budget.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "local storage",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: control_gastos,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://flamboyant-poitras-03ff96.netlify.app/"
+    },
+    {
+      name: "Agendamiento de citas",
+      description:
+        "A web app thar enables users to manage all appointments of thier clients. It allows to register the name, telephone number, appoiment day and observations. This app could be usefull for small busissnes.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "local storage",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: control_citas,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://boring-fermi-422910.netlify.app/"
+    },
+    {
+      name: "Blog Café",
+      description:
+        "The Blog Café contains information about courses for all people who enjoy preparing coffee. It also covers various topics of interest such as recipes, the benefits of coffee, and much more.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Responsive design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blog_cafe,
+      source_code_link: "https://github.com/BrianOlaya",
+      link:"https://xenodochial-kepler-e6b372.netlify.app/"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

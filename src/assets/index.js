@@ -19,15 +19,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql1.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import lilab from "./company/lilab.jpg";
+import talent from "./company/talent.jpg";
+import mibanco from "./company/mibanco.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import adminpro from "./adminpro.jpg";
+import iccrenacer from './iccrenacer.jpg';
+import bienes_raices from './bienes_raices.jpg'
+import blog_cafe from './blog_cafe.jpg';
+import control_citas from './control_citas.jpg';
+import control_gastos from './control_gastos.jpg';
 
 export {
   logo_brian,
@@ -58,4 +68,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  adminpro,
+  iccrenacer,
+  bienes_raices,
+  control_citas,
+  control_gastos,
+  blog_cafe,
+  lilab,
+  talent,
+  mibanco,
+  sql
 };
