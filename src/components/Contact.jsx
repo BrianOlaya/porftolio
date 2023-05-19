@@ -15,8 +15,6 @@ const [form, setForm] = useState(
    email:'',
    message:''}
    )
-
-   const [loading, setLoading] = useState(false)
   
    const handleChange = (e) => {
     const {name, value} = e.target;
@@ -25,7 +23,6 @@ const [form, setForm] = useState(
 
    const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true)
 
     emailjs.send(
       'service_80tw59p',
@@ -40,7 +37,6 @@ const [form, setForm] = useState(
       'poXCjFeoKTSEcVKQN'
       )
       .then(()=>{
-        setLoading(false);
         swal("Thank you!", "I will get back to you as soon as possible", "success");
       setForm({
          name:'',
@@ -48,8 +44,6 @@ const [form, setForm] = useState(
          message:''
         })
       },(error) =>{
-        setLoading(false)
-        console.log(error);
         swal("Oops!", "Something went wrong. Try later again", "error");
       })
    }
@@ -100,7 +94,7 @@ const [form, setForm] = useState(
           type='submit'
           className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
-            {loading ? 'Sending' : 'Sent' }
+          Send
           </button>
         </form>
       </motion.div>
