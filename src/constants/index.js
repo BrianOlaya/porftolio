@@ -295,7 +295,7 @@ import {
       ],
       image: control_citas,
       source_code_link: "https://github.com/BrianOlaya",
-      link:"https://boring-fermi-422910.netlify.app/"
+      link:"https://646e26f2b0086c00a258bc3c--regal-begonia-670b8a.netlify.app/"
     },
     {
       name: "Blog Café",
