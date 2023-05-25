@@ -7,10 +7,11 @@ import {projects} from '../constants';
 import {fadeIn, textVariant} from '../utils/motion.js';
 import { Tilt } from 'react-tilt';
 
+
 const ProjectCard = ({index, name, description, tags, image, source_code_link, link}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt options = {{max: 45, scale:1, speed:450}} className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <Tilt options = {{max: 45, scale:1, speed:450}} className='bg-tertiary p-5 rounded-2xl sm:w-[340px] w-full'>
         <div className='relative w-full h-[230px] '>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl'/>
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover '>
@@ -41,11 +42,11 @@ const Works = () => {
       <p className={styles.sectionSubText}>
       My work</p>
       <h2 className={styles.sectionHeadText}>
-      Pr ojects</h2>
+      Projects</h2>
      </motion.div>
      <div className='w-full flex'>
       <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero deleniti pariatur tempora ea explicabo dicta porro sed ullam quo ad ab distinctio amet fuga, nam voluptate repudiandae praesentium? Quaerat.
+      These are some of the applications built by me. Over time, I've had experiences that have been valuable learning opportunities. I invite you to check them out, and if you have any questions or suggestions, please contact me using the form below.
       </motion.p>
      </div>
      <div className='mt-20 flex flex-wrap gap-7 '>
