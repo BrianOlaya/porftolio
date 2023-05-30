@@ -229,7 +229,7 @@ import {
       ],
       image: iccrenacer,
       source_code_link: "https://github.com/BrianOlaya",
-      link:"https://www.iccrenacer.com/"
+      link:"https://iccrenacer.netlify.app/"
     },
     {
       name: "Bienes Raices",
