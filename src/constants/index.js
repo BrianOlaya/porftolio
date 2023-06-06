@@ -234,7 +234,7 @@ import {
     {
       name: "Bienes Raices",
       description:
-        "Static web site of a inmobiliary company that show information of houses and apartments, also contain informartion about the company, pricing, contact form and testimonials.",
+        "This is a static web site of a inmobiliary company that show information of houses and apartments, also contain informartion about the company, pricing, contact form, blog, advertisements  and testimonials.",
       tags: [
         {
           name: "HTML",
